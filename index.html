@@ -1,13 +1,102 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en-us">
+
 <head>
-    <met chart="UTF-8">
-<title></title>
-    <a href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-  
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Bootstrap-Portfolio</title>
+
+    <!-- Boostrap Stylesheet -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+    <!-- Our own CSS stylesheet -->
+    <link rel="stylesheet" href="assets/css/style.css" media="screen">
+
 </head>
-<header></header>
-<body></body>
-<footer>
-</footer>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <a class="navbar-brand" href="index.html" id="logo">Ulysse Hakizimana</a>
+            </div>
+            <button type="button" class="navbar-toggler collapsed ml-auto" data-toggle="collapse" data-target="#page-nav-collapse" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="page-nav-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="index.html">About</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+    <!-- End of navbar -->
+
+    <!-- Start of container -->
+    <main class="container">
+        <section class="row">
+            <div class="col-md-8">
+                <article class="block">
+                    <h1 class="block-header">About Me</h1>
+                    <hr />
+                    <img src="assets/images/me@wk.jpg" alt="" id="about-image">
+                    <p> Hello, my name is Ulysse Hakizimana, and I am Rwandan.I have been in the country for 10 years. I went
+                        to college in Riverside RCC.I work for NTT DATA Services as an Associate senior Technician. I love
+                        watching Basketball, Soccer and going to movie theaters with my friends. besides all this, I am a
+                        father of two beautiful girls.whenever I am not with my friends or working I am with my family enjoying
+                        the moment with them.this year I assigned up for a class cause I am looking to change my career into
+                        something that's intrigued that I would enjoy more.
+                    </p>
+
+                </article>
+            </div>
+            <div class="col-md-4">
+                <aside class="block">
+                    <h1 class="block-header connect-header">Connect With Me</h1>
+                    <hr />
+                    <div id="images">
+                        <img src="assets/images/if_facebook_square_107117.png" alt="" class="connect-photo">
+                        <img src="assets/images/if_linkedin_square_color_107091.png" alt="" class="connect-photo">
+                        <img src="assets/images/if_twitter_square_107066.png" alt="" class="connect-photo">
+                    </div>
+                </aside>
+            </div>
+        </section>
+    </main>
+    <!-- End of container -->
+
+    <!-- Start of footer -->
+    <footer class="footer">
+        <div class="two-toned-footer-color"></div>
+        <p class="text-muted text-muted-footer text-center">
+            &copy; Copyright Ulysse Hakizimana
+        </p>
+    </footer>
+    <!-- End of footer -->
+
+    <!-- jQuery CDN -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Bootstrap CDN -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script></script>
+</body>
+
 </html>
